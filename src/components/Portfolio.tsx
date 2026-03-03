@@ -1,11 +1,11 @@
 import { ExternalLink, ArrowRight } from 'lucide-react';
-import {facial1 ,pointage1} from '../assets/images';
+import {facial1 ,pointage1,berger} from '../assets/images';
 export default function Portfolio() {
   const projects = [
     {
       title: 'E-Commerce Platform',
       description: 'Plateforme de vente en ligne complète avec gestion des stocks, panier intelligent et système de paiement sécurisé. Interface intuitive pour les clients et tableau de bord puissant pour les marchands.',
-      image: 'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image:berger,
       tags: ['React', 'Spring Boot', 'Stripe'],
       link: '#',
       results: ['500+ produits gérés', '10k+ utilisateurs actifs', '+350% conversion'],
